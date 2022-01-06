@@ -1,11 +1,11 @@
 <?php include("layout/header.php") ?>
 
 <div class="card">
-    <div class="card-header">
-        <h3 class="card-title">Tambahkan Produk</h3>
-    </div>
-    <div class="card-body">
-        <form action="" method="POST">
+    <form action="" method="POST">
+        <div class="card-body container">
+            <div class="card-header mb-4">
+                <h3 class="card-title">Tambahkan Produk</h3>
+            </div>
             <div class="form-group mb-3 ">
                 <label class="form-label">Nama Produk</label>
                 <div>
@@ -25,11 +25,11 @@
             </div>
             <div class="form-group mb-3 text-muted">
                 <label class="form-label" for="alamat">Harga</label>
-                <input type="text" name="alamat" id="alamat" class="form-control">
+                <input type="number" name="alamat" id="alamat" class="form-control">
             </div>
-    </div>
-    <div class="form-footer">
-        <button type="submit" id="submit" class="btn btn-primary w-100" name="updateEmailAlamat">Ubah Email/Alamat Rumah</button>
-    </div>
+            <div class="form-footer">
+                <button type="submit" id="submit" class="btn btn-primary w-100" name="updateEmailAlamat">Tambahkan Produk Baru</button>
+            </div>
+        </div>
     </form>
 </div>

@@ -55,19 +55,13 @@ $hasil = mysqli_fetch_assoc($result);
                     <a class="nav-link" href="#">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Wanita</a>
+                    <a class="nav-link" href="#">Men</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">pria</a>
+                    <a class="nav-link" href="#">Women</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Lainnya</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Aksesoris</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Blog</a>
+                    <a class="nav-link" href="#">About</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Kontak</a>
